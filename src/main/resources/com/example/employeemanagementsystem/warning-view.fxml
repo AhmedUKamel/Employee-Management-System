@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #39d4a3;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.employeemanagementsystem.Controllers.WarningController">
+   <children>
+      <Label fx:id="headingLabel" layoutX="50.0" layoutY="50.0" prefHeight="50.0" prefWidth="500.0" textFill="RED" AnchorPane.leftAnchor="50.0" AnchorPane.rightAnchor="50.0" AnchorPane.topAnchor="50.0">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="descriptionLabel" layoutX="50.0" layoutY="120.0" prefHeight="50.0" prefWidth="500.0" textFill="#535353">
+         <font>
+            <Font name="Calibri" size="18.0" />
+         </font>
+      </Label>
+      <Button fx:id="button" layoutX="50.0" layoutY="310.0" mnemonicParsing="false" onAction="#agreeAction" prefHeight="40.0" prefWidth="225.0" style="-fx-background-color: #08a938; -fx-background-radius: 15;" text="Agree" textFill="WHITE" AnchorPane.bottomAnchor="46.8" AnchorPane.leftAnchor="50.0">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="cancel" layoutX="325.0" layoutY="310.0" mnemonicParsing="false" onAction="#cancelAction" prefHeight="40.0" prefWidth="225.0" style="-fx-background-color: #ea0000; -fx-background-radius: 15;" text="Cancel" textFill="WHITE" AnchorPane.bottomAnchor="46.8" AnchorPane.rightAnchor="49.400000000000006">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
